@@ -1,0 +1,231 @@
+.btn-reserve {
+  background: #f4ce14;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #f4ce14;
+  color: #495e57;
+  font-weight: bold;
+  border: 0.1875rem solid #f4ce14;
+  font-size: 1em;
+}
+
+.b:active {
+  background-color: #495e57;
+  color: white;
+}
+
+
+input::placeholder {
+  color: #999; /* Change the text color */
+  font-size: 14px; /* Change the font size */
+  opacity: 0.7; /* Change the opacity */
+}
+
+
+
+.date, #date,#time, #adults, #children, #firstName, #lastName, #email, #phone, #specialRequest,
+.reservation-time, .reservation-date{
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+  background-color: white;
+  border-radius: 8px;
+  
+}
+
+#firstName, #lastName, #email, #phone, #specialRequest{
+  text-indent: 10px;
+}
+
+/* #time{
+  height: 55px;
+} */
+
+/* .reservation-date{
+  background-color: white;
+  height: 38px;
+  max-height: 100%;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 25;
+  padding-bottom: 1rem;
+  border-bottom: 1pt solid #F4CE14;
+} */
+
+.reservation-table-top{
+  width: 100%;
+}
+
+.reservation-table-bottom{
+  width: 100%;
+}
+
+td {
+  vertical-align: top; /* Change to 'top' for proper alignment */
+  text-align: left;
+  padding-top: 1rem;
+  padding-right: .5rem;
+}
+
+tr {
+  vertical-align: top; /* Change to 'top' for proper alignment */
+  text-align: left;
+  padding-bottom: 0.5rem;
+  /* border: 0 0 0 1px; */
+  border-collapse: separate;
+  border-spacing: 0 3rem; /* Add this line for spacing between rows */
+}
+
+input{
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.reservation-form {
+  width: 86%; /* Adjust the width to your preference */
+  margin: 0 auto;
+  padding: 0.05rem; /* Add padding to your preference */
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.reservation-label {
+  display: flex;
+  align-items: flex-end;
+  color: #F4CE14;
+}
+
+.reservation-input {
+  display: block;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  border-bottom: 1pt solid #F4CE14;
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.reservation-date, .reservation-time{
+  display: block;
+  align-items: flex-end;
+  padding-bottom: 0rem;
+  margin-bottom: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  line-height: 2rem;
+  /* border-bottom: 1pt solid #F4CE14; */
+  /* margin-block:  solid #F4CE14; */
+  width: 100%;
+  max-width: 100%;
+  /* position: relative; */
+}
+
+
+
+
+
+
+.reservation-input-bottom {
+  display: block;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  border-bottom: 1pt solid #F4CE14;
+  width: 100%;
+  max-width: 100%;
+}
+
+.input-icon {
+  margin-right: 0.5rem;
+  align-self: center;
+}
+
+.container-item-title {
+  font-weight: bold;
+}
+
+.send-email-label {
+  display:inline-block;
+  white-space: nowrap;
+  align-self: center;
+  text-align: center;
+  /* margin-top: 0.5rem; Adjust the spacing between the checkbox and label */
+}
+
+#sendConfirmationEmail{
+  background-color: #F4CE14;
+  transform: scale(0.5);
+  align-self: flex-end;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.reservation-input {
+  width: 100%;
+  float: left;
+  width: 100%;
+}
+
+#specialRequests {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+}
+
+.reservation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.containter-item-title {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.reservation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+input,
+select{
+  height: 2.5rem;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+  outline: none;
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 0.375rem;
+  background: #ffffff;
+  color: #495e57;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  padding: 12px;
+  padding-left: 10px;
+  text-indent: 10px;
+}
+
+input:focus,
+select:focus {
+  border-width: 0.125rem;
+  border-color: #495e57;
+}
+
+.error {
+  border: 3px solid red !important;
+}

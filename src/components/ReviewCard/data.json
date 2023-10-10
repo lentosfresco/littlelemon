@@ -1,0 +1,37 @@
+ [
+      {
+       
+        "name": "Dan C.",
+        "location": "Oakville, ON",
+        "rating": 4.5,
+        "date": "8/14/2022",
+        "feedback": "Fantastic find! A neighbourhood gem!!! Outstanding authentic Greek salade, huge portions, and very fresh. Ps. I love eating at a place where the owner is the cook...thanks George!!!"
+      },
+      {
+        
+        "name": "Brandon H.",
+        "location": "Markham, ON",
+        "rating": 4,
+        "date":"4/2/2023",
+        "feedback":"My favourite Greek salade in the city! I've been telling all my friends that this place is a must try"
+
+      },
+      {
+       
+        "name": "Steffi M.",
+        "location": "Mississauga, ON",
+        "rating": 4.5,
+        "date":"11/11/2020",
+        "feedback":"I am greek and this is one of my favourite places to get a quick fix in Mississauga. Lovely staff, always on time with orders, I like getting the Greek salad! So yummy! It's  the most authentic and for sure, nothing comes close."
+      },
+      {
+      
+        "name": "Lula G.",
+        "location": "Mississauga, ON",
+        "rating": 4.5,
+        "date":"9/24/2023",
+        "feedback": "I love this place! Everytime we come here, it's always been such a great experience!!! The food is awesome... drinks are lit, the vibes and the service are on point. Bruschetta is great and the lemon dessert is no less than Divine"
+      }
+    ]
+  
+
